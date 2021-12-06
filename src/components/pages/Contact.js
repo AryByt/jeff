@@ -18,10 +18,11 @@ export default function Contact() {
   }
 
   return (
-    <div className="grid grid-cols-2">
+    <div className="md:grid grid-cols-2">
       <div className="bg-black flex flex-rows justify-center text-center text-white m-16 items-center">
         <div>
           <h1 className="font-extrabold text-3xl p-10">Jeff Bayati</h1>
+          <h1 className="font-extrabold text-1xl p-2">jafarbythandyman@gmail.com</h1>
           <h2 className="font-bold text-lg p-5">Give me a Call!</h2>
           <div>
             <p className="font-bold text-5xl text-red-600">512-689-2605</p>
